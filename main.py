@@ -32,7 +32,7 @@ while not len(all_states)==len(guessed_states):
 
     if answer=="Exit":
         states_to_learn = [state for state in all_states if not state in guessed_states]
-        pandas.DataFrame(states_to_learn).to_csv("indian_states_to_learn.txt")
+        pandas.DataFrame(states_to_learn).to_csv("indian_states_to_learn.csv")
         break
 
 if len(guessed_states) == 29:
