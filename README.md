@@ -15,7 +15,7 @@ The game continues until you've guessed all states or reached a set limit.
 Want a challenge? Try guessing all states in a limited time!
 
 # 🔧 Features
-
+ 
 - Track progress as you guess more states.
 - Check for Exit Input: Allow users to enter "exit" to quit.
 - Determine Remaining States: Compare all_states and guessed_states to find unanswered ones.
