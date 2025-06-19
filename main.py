@@ -4,7 +4,7 @@ import time
 
 
 screen = turtle.Screen()
-image = "India-state.gif"
+image = "India-map.gif"
 
 screen.title("Indian States Game")
 screen.addshape(image)
